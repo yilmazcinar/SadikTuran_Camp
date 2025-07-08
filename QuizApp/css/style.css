@@ -1,0 +1,132 @@
+.app-container {
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#quiz-box #header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.option-list {
+  padding: 18px 10px;
+}
+.option-list .option {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.option-list .option.correct {
+  color: rgb(24, 143, 24);
+  background: #fff;
+  border-color: green;
+}
+.option-list .option.incorrect {
+  color: rgb(138, 34, 34);
+  background: #f8d7da;
+  border-color: red;
+}
+
+.option-list .option:hover {
+  color: #112b2c;
+  background: #ffd33d;
+}
+
+.option-list .option.disable {
+  pointer-events: none;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*SCORE BOX*/
+
+#score-box {
+  text-align: center;
+  padding: 30px;
+}
+
+#score-box i {
+  font-size: 90px;
+  color: goldenrod;
+  margin-bottom: 10px;
+}
+
+#score-box .score-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#button-box {
+  text-align: center;
+}
+
+#button-box,
+#quiz-box,
+#score-box {
+  display: none;
+}
+#button-box.active,
+#quiz-box.active,
+#score-box.active {
+  display: block;
+}
+
+/*KALAN SÜRE*/
+
+.time {
+  display: flex;
+  align-items: center;
+  background: #ffd33d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.time .time-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.time .time-second {
+  background: crimson;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 5px;
+  width: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-next {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.8s ease;
+}
+
+.btn-next.show {
+  opacity: 1;
+  transform: scale(1);
+}
+.time-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: #28a745; /* Yeşil renk */
+}

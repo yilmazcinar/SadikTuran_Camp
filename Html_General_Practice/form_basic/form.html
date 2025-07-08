@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--Form aracılığıyla bilgiyi action attribute içerisinde tanımlanan adrese gönderiyoruz. -->
+    <div id="form">
+      <form action="">
+        <div id="name">
+          <label for="name">Name:</label>
+          <input type="text" />
+        </div>
+
+        <div id="surname">
+          <label for="surname">Surname:</label>
+          <input type="text" />
+        </div>
+        <div></div>
+        <h4>Gender</h4>
+        <label for="gender">Erkek</label>
+        <input type="radio" name="gender" id="erkek" />
+        <label for="gender">Kadın</label>
+        <input type="radio" name="gender" id="kadin" />
+        <label for="gender">Belirtilmedi</label>
+        <input type="radio" name="gender" id="belirtilmedi" />
+        <div>
+          <h4>En sevdiğiniz dil</h4>
+          <label for="Programming Languages">Javascript</label>
+          <input type="checkbox" name="programsLanguage" id="checkbox" />
+          <label for="Programming Languages">HTML</label>
+          <input type="checkbox" name="programsLanguage" id="checkbox" />
+          <label for="Programming Languages">CSS</label>
+          <input type="checkbox" name="programsLanguage" id="checkbox" />
+        </div>
+        <div>
+          <label for="intro">About YourSelf</label>
+          <textarea name="intro" id="about"></textarea>
+        </div>
+
+        <div>
+          <label for="cities">Cities</label>
+          <select id="cities">
+            <option value="22">Edirne</option>
+            <option value="34">İstanbul</option>
+          </select>
+        </div>
+
+        <button id="button" type="submit">Kaydet</button>
+      </form>
+    </div>
+  </body>
+</html>

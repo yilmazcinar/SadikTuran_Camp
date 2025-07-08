@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        /* flex-direction: row; DEFAULT */
+
+        background-color: #034f84;
+        height: 500px;
+      }
+
+      .item {
+        background-color: #f7786b;
+        padding: 30px;
+        margin: 20px;
+        color: #fff;
+        font-size: 25px;
+
+        /* flex-grow: 1; DEFAUL 0 - Bütün elemanlar container kaplaması için 1 !! Ayrıca itemlere tek tek de verilebilir. Verilen itemler diğer itemlerdan kalan alanı paylaşır. Farklı itemlere 1,2,3 gibi verilen farklı değerlerde kaplanılan alan verilen değere göre değişir.  */
+      }
+
+      .item-1 {
+        /* flex-basis: 200px; Başlangıc genişliği. 200 pxden geri kalan alan growa dağıtılır. Conteyner genişliği düştükçe grow elemanlar daralır fakat basis olan yer kalmayana dek 200px kalmaya devam eder. */
+
+        /* flex-shrink: 0; basis özelliğini tarayıcı daralsa bile 200px kalmaya devam eder.*/
+
+        /* flex: 0 1 auto; DERSEK grow-shrink-basis bu şekilde tek satırda yazabiliriz.*/
+
+        /* flex: 25%; SATIRIN 25% kapla*/
+
+        /* order: 1; İtemleri sıralama*/
+      }
+      .item-2 {
+        /* order: 2; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item-1">İtem1</div>
+      <div class="item item-2">İtem2</div>
+      <div class="item item-3">İtem3</div>
+      <div class="item item-4">İtem4</div>
+    </div>
+  </body>
+</html>
