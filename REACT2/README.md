@@ -1,12 +1,53 @@
-# React + Vite
+# 🛒 React Alışveriş Listesi Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, temel bir alışveriş listesi uygulamasıdır. React ve Vite ile geliştirilmiştir. Kullanıcılar ürün ekleyebilir, silebilir, tamamlandı olarak işaretleyebilir ve tüm listeyi temizleyebilir.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 Ürün ekleme
+- 🗑️ Ürün silme
+- ✅ Ürünü tamamlandı olarak işaretleme
+- 🔄 Filtreleme (Tümü / Tamamlananlar / Tamamlanmayanlar)
+- 🧹 Tüm listeyi temizleme
+- ⚡️ Hızlı geliştirme için Vite altyapısı
+- 🎨 Bootstrap ile modern arayüz
 
-## Expanding the ESLint configuration
+## 📦 Kurulum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Bu repoyu klonlayın:
+   ```bash
+   git clone <repo-link>
+   cd REACT2
+   ```
+2. Bağımlılıkları yükleyin:
+   ```bash
+   npm install
+   ```
+3. Geliştirme sunucusunu başlatın:
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ Kullanılan Teknolojiler
+
+- React
+- Vite
+- Bootstrap & Bootstrap Icons
+
+## 📁 Klasör Yapısı
+
+- `src/components/` : Bileşenler
+- `src/App.jsx` : Ana uygulama
+- `src/index.css` : Stil dosyası
+
+## 👨‍💻 Katkı Sağlamak
+
+Pull request ve issue açabilirsiniz. Her türlü katkıya açığız!
+
+## 📝 Lisans
+
+MIT
+
+---
+
+> Hazırlayan: Sadık Turan React Kampı
