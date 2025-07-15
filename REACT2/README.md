@@ -49,5 +49,3 @@ Pull request ve issue açabilirsiniz. Her türlü katkıya açığız!
 MIT
 
 ---
-
-> Hazırlayan: Sadık Turan React Kampı
