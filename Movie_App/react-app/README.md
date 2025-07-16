@@ -63,26 +63,10 @@ Bu proje **The Movie Database (TMDB) API**'sini kullanmaktadır:
 4. **İzleme Listesi Görüntüleme**: Sağ üst köşedeki izleme listesi butonuna tıklayın
 
 ## 📱 Ekran Görüntüleri
+<img width="881" height="902" alt="Ekran görüntüsü 2025-07-16 233609" src="https://github.com/user-attachments/assets/503cfb3c-00bc-44b4-b6e2-63a29f03d831" />
+<img width="818" height="891" alt="Ekran görüntüsü 2025-07-16 233547" src="https://github.com/user-attachments/assets/d695017d-95f6-43ba-89a0-ea0ed6ba5fa2" />
 
-### Ana Sayfa
 
-![Ana Sayfa](./screenshots/homepage.png)
-_Film arama ve liste görünümü_
-
-### Film Detayları
-
-![Film Detayları](./screenshots/movie-details.png)
-_Backdrop görseli ile detay modal'ı_
-
-### İzleme Listesi
-
-![İzleme Listesi](./screenshots/watchlist.png)
-_Favori filmler listesi_
-
-### Oyuncu Bilgileri
-
-![Oyuncu Bilgileri](./screenshots/cast.png)
-_Oyuncu fotoğrafları ve karakterleri_
 
 ## 🏗️ Proje Yapısı
 
