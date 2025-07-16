@@ -17,7 +17,7 @@ const page = 1;
 const query = "batman";
 const language = "tr-TR";
 
-export default function App() {
+export default function App2() {
   const [movies, setMovies] = useState([]);
   const [watchListMovies, setWatchListMovies] = useState([]);
   const [isWatchListOpen, setIsWatchListOpen] = useState(false);
